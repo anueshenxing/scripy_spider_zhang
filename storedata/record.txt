@@ -1,0 +1,29 @@
+y.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.toutiao.com/group/6367164301157794050/> from <GET http://toutiao.com/group/6367164301157794050/>
+2016-12-23 14:33:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.toutiao.com/a6356420283435319810/> (referer: http://toutiao.com/articles_movie/p1/)
+2016-12-23 14:33:35 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.toutiao.com/a6356420283435319810/> (referer: http://toutiao.com/articles_movie/p1/)
+Traceback (most recent call last):
+  File "/home/zhang/anaconda2/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/zhang/anaconda2/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/zhang/anaconda2/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/zhang/anaconda2/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/zhang/anaconda2/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genex
+
+
+  新闻爬取计数：
+     articles_news_society:1608
+     articles_news_edu:1633
+     articles_news_sports:1525
+     articles_news_travel:1379
+     articles_news_military:1162
+     articles_news_finance:1670
+     articles_news_tech:1610
+    articles_news_food:1361
+    articles_news_health:1561
+    articles_news_car:1357
+    articles_news_entertainment:1248
+
+    共计16114条数据
