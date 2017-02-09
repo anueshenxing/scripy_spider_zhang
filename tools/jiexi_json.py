@@ -12,7 +12,7 @@ root = doc.createElement("root")
 doc.appendChild(root)
 count = 0
 
-# file = open("../storedata/news.json", 'r')
+# file = open("../storedata/news_entertainment_car.json", 'r')
 # output = open("../storedata/news.txt", 'a')
 # a = 0
 # b = 0

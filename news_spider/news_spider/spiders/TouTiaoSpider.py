@@ -13,9 +13,9 @@ class TouTiaoSpider(scrapy.Spider):
     ]
     base_url = 'http://toutiao.com'
     # maxpage = 501;#允许爬的最大的页数
-    maxpage = 100  # 允许爬的最大的页数
-    category = ['articles_news_entertainment', 'articles_news_car',
-                'articles_news_health', 'articles_news_food']
+    maxpage = 500  # 允许爬的最大的页数
+    category = ['articles_news_entertainment', 'articles_news_car']
+                # 'articles_news_health', 'articles_news_food']
                 # 'articles_news_tech', 'articles_news_finance',
                 # 'articles_news_military', 'articles_news_travel',
                 # 'articles_news_sports', 'articles_news_edu', 'articles_news_society']

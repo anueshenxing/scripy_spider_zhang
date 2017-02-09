@@ -3,10 +3,11 @@
 from pymongo import *
 import json
 
+predir = "/home/zhang/news_data_2017_02_01/"
 client = MongoClient("localhost", 27017)
 db = client.news_db
-news = db.news_collection
-file = open("../storedata/news.json", 'r')
+news = db.news_collection_2017
+file = open(predir+"news_tech_finance.json", 'r')
 error_count = 0
 right_count = 0
 
